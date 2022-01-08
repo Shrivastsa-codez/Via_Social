@@ -27,7 +27,7 @@ function addroom(){
   });
 
   localStorage.setItem("room_name", room_name);
-  window.location="vs_page.html";
+  window.location="vs_chatroom.html";
 }
 
 function getData() {firebase.database().ref("/").on('value',
